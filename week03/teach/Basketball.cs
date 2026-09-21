@@ -32,5 +32,10 @@ public class Basketball
         Console.WriteLine($"Players: {{{string.Join(", ", players)}}}");
 
         var topPlayers = new string[10];
+
+        foreach (var player in players)
+        {
+            
+        }
     }
 }
